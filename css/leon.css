@@ -231,6 +231,12 @@ font-family: 'Work Sans', sans-serif;
 }
 /* end features */
 /* start sevices */
+
+.services {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+  }
+
 .services .services-content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -360,7 +366,7 @@ font-family: 'Work Sans', sans-serif;
 
 .about .about-content .image {
         position: relative;
-        width: 500px;
+        width: 320px;
         height: 375px;   
      }
    
@@ -394,7 +400,7 @@ font-family: 'Work Sans', sans-serif;
         border-bottom: 80px solid var(--main-Color);
         border-left: 80px solid var(--main-Color);
         z-index: -1;
-        right: -25px;
+        right: -60px;
         top: -40px;
     }
 
@@ -406,7 +412,7 @@ font-family: 'Work Sans', sans-serif;
     }
 
     .about .about-content .text {
-        flex-basis: calc(100% - 565px);
+        flex-basis: calc(100% - 420px);
         padding-left: 30px;
     }
 
